@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:student_manager/student_manager/home_screen.dart';
 import 'package:localstorage/localstorage.dart';
-import 'package:student_manager/student_manager/student_provider.dart';
+
+import 'data/providers/student_provider.dart';
+import 'ui/screens/home_screen.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();

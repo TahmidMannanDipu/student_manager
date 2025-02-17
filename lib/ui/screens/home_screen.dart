@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import '../../data/providers/student_provider.dart';
 import 'edit_student_screen.dart';
-import 'student_provider.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});

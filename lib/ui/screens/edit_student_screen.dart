@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'student_model.dart';
-import 'student_provider.dart';
+import '../../data/models/student_model.dart';
+import '../../data/providers/student_provider.dart';
 
 class EditStudentScreen extends StatefulWidget {
   final Student? student;
